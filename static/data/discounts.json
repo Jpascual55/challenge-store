@@ -1,0 +1,17 @@
+[
+	{
+		"id": "promo2x1",
+		"name": "2x1 Promo",
+		"discountPercent": 0.5,
+		"amountToDiscount": 2,
+		"needsToBeEven": true,
+		"productsToApply": ["CAP"]
+	},
+	{
+		"id": "promo50percent",
+		"name": "3+ Promo",
+		"discountPercent": 0.25,
+		"amountToDiscount": 3,
+		"productsToApply": ["TSHIRT"]
+	}
+]
