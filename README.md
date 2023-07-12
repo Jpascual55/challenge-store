@@ -1,3 +1,5 @@
+Svelte Challenge online store that sells products. You can add and remove it from the cart and it apply some discounts based on the number of added products.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
