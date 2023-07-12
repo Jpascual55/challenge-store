@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
-	import { onDestroy, onMount } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import { store } from '$lib/stores/store.store';
-	import type { Cart, CartItem, StoreItem } from '$lib/types/store.types';
+	import type { Cart } from '$lib/types/store.types';
 
 	export let isOpen = false;
 	let cart: Cart;
@@ -10,6 +10,7 @@
 	const unsubscribe = store.subscribe((store) => {
 		if (store) cart = store.cart;
 	});
+
 	onDestroy(unsubscribe);
 
 	function removeItem(itemId: string) {
